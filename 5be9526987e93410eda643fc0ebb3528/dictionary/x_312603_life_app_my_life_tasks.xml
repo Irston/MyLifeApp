@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="My Life Tasks" max_length="40" name="x_312603_life_app_my_life_tasks" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="1000" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Due date" max_length="40" name="due_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Outcome" max_length="1000" name="outcome" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="250" name="short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Trainings to attend" max_length="1000" name="trainings_to_attend" type="string"/>
+    </element>
+</database>
