@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="My Life Tasks" max_length="40" name="x_312603_life_app_my_life_tasks" type="collection">
+    <element audit="true" label="My Life Tasks" max_length="40" name="x_312603_life_app_my_life_tasks" sizeclass="1" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="1000" name="description" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Due date" max_length="40" name="due_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Outcome" max_length="1000" name="outcome" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="250" name="short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Short Description" max_length="250" name="short_description" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Trainings to attend" max_length="1000" name="trainings_to_attend" type="string"/>
+        <element label="Notes" max_length="65536" name="u_notes" type="html"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="open" label="State" max_length="40" name="u_state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="0" value="open"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="in progress"/>
+                <element inactive_on_update="false" label="On Hold" sequence="2" value="on hold"/>
+                <element inactive_on_update="false" label="Completed" sequence="3" value="completed"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="4" value="cancelled"/>
+                <element inactive_on_update="false" label="Not Required Anymore" sequence="5" value="not required anymore"/>
+            </choice>
+        </element>
     </element>
 </database>

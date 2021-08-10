@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="task_description" label="Task Description" language="en" table="x_312603_life_app_task_types">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>task_description</element>
+            <help/>
+            <hint/>
+            <label>Task Description</label>
+            <language>en</language>
+            <name>x_312603_life_app_task_types</name>
+            <plural>Task Descriptions</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-07-24 16:28:23</sys_created_on>
+            <sys_id>084e16e1872d3410eda643fc0ebb350c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Task Description</sys_name>
+            <sys_package display_value="Life App" source="x_312603_life_app">5be9526987e93410eda643fc0ebb3528</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Life App">5be9526987e93410eda643fc0ebb3528</sys_scope>
+            <sys_update_name>sys_documentation_x_312603_life_app_task_types_task_description_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-07-24 16:28:23</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
